@@ -1,7 +1,7 @@
 name: nigerian_phone_number_validator
 description: "Validate nigerian phone numbers"
 version: 0.0.1
-homepage:
+repository: https://github.com/ayevbeosa/nigerian_phone_number_validator
 
 environment:
   sdk: '>=3.2.0 <4.0.0'
