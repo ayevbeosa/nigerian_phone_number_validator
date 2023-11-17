@@ -1,9 +1,12 @@
 library nigerian_phone_number_validator;
 
+/// International dial code for Nigerian numbers
 const String _nigeriaDialCode = '234';
 
+/// `RegEx` that does the validation
 RegExp _nigeriaPhoneNumberRegExp = RegExp(r'^(\+234|0)[789]\d{9}$');
 
+/// Default error message
 const String _defaultErrorMessage = 'Phone number is invalid';
 
 /// Class has static methods that validates and sanitises
