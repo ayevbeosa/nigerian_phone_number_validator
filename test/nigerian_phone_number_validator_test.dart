@@ -27,6 +27,16 @@ void main() {
         'Phone number is invalid',
       );
     });
+
+    test('validate() returns an custom error message `Error`', () {
+      expect(
+        NigerianPhoneNumberValidator.validate(
+          '+23408184623',
+          'Error',
+        ),
+        'Error',
+      );
+    });
   });
 
   group('Valid phone numbers', () {
