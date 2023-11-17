@@ -1,5 +1,5 @@
 name: nigerian_phone_number_validator
-description: "Validate nigerian phone numbers"
+description: "A light-weight package to validate Nigerian phone numbers. Specifically, designed for validating phone number in a TextFormField widget."
 version: 0.0.1
 repository: https://github.com/ayevbeosa/nigerian_phone_number_validator
 
